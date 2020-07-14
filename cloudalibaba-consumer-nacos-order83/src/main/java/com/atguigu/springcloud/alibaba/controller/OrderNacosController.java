@@ -9,14 +9,10 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
-/**
- * @auther zzyy
- * @create 2020-02-23 15:01
- */
+
 @RestController
 @Slf4j
-public class OrderNacosController
-{
+public class OrderNacosController {
     @Resource
     private RestTemplate restTemplate;
 
